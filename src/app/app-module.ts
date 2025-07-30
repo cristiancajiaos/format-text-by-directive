@@ -7,11 +7,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Layout } from './components/layout/layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { FormatText } from './directives/format-text';
 
 @NgModule({
   declarations: [
     App,
-    Layout
+    Layout,
+    FormatText
   ],
   imports: [
     BrowserModule,
